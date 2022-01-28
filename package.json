@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.17",
+    "expo": "~40.0.0",
+    "expo-status-bar": "~1.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
